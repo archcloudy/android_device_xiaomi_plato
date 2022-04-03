@@ -27,3 +27,7 @@ include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 
 # Inherit the proprietary files
 include vendor/xiaomi/plato/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/miuicamera-plato/BoardConfig.mk
+

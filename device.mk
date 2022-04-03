@@ -11,6 +11,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-plato/device.mk)
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
