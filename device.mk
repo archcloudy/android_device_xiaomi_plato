@@ -47,6 +47,14 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     init.project.rc
 
+# Set support hide display cutout feature
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_hide_display_cutout=true
+
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay
+
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
