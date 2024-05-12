@@ -18,7 +18,6 @@ PRODUCT_MODEL := 22071212AG
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="plato_global-user 15 AP3A.240905.015.A2 OS2.0.5.0.VLQMIXM release-keys" \
     BuildFingerprint=Xiaomi/plato_global/plato:15/AP3A.240905.015.A2/OS2.0.5.0.VLQMIXM:user/release-keys \
     DeviceProduct=plato \
     SystemName=plato_global
