@@ -532,7 +532,7 @@ vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc
 vendor/lib64/libmfido_isee.so
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
 
 # Gatekeeper
