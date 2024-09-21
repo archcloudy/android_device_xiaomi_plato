@@ -141,10 +141,10 @@ vendor/lib64/libai_sdr2hdr.so
 vendor/lib64/libaispq.so
 vendor/lib64/libAITrackingAFMgr.so
 vendor/lib64/libalAI_Seg.so
-vendor/lib64/libalAILDC.so
+vendor/lib64/libalAILDC.so;DISABLE_CHECKELF
 vendor/lib64/libalCFR.so
-vendor/lib64/libalhLDC.so
-vendor/lib64/libalLDC.so
+vendor/lib64/libalhLDC.so;DISABLE_CHECKELF
+vendor/lib64/libalLDC.so;DISABLE_CHECKELF
 vendor/lib64/libalNN_engine.so
 vendor/lib64/libalNN_gpu.so
 vendor/lib64/libalNN.so
