@@ -33,6 +33,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so', 'android.hardware.security.sharedsecret-V1-ndk.so')
         .replace_needed('android.hardware.security.secureclock-V1-ndk_platform.so', 'android.hardware.security.secureclock-V1-ndk.so')
         .add_needed('android.hardware.security.rkp-V3-ndk.so'),
+    'vendor/etc/sensors/hals.conf': blob_fixup()
+        .regex_replace('android.hardware.sensors@2.X-subhal-mediatek.so', 'android.hardware.sensors@2.0-subhal-impl-1.0.so')
+        .regex_replace('sensors.touch.detect.so', 'sensors.dynamic_sensor_hal.so')
+        .regex_replace('sensors.elliptic@2.0.so', 'sensors.xiaomi.v2.so'),
     'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
         .add_needed('libstagefright_foundation-v33.so')
         .replace_needed('libalsautils.so', 'libalsautils-v31.so'),

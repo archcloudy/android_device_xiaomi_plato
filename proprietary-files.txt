@@ -592,6 +592,7 @@ vendor/lib64/se_nq_extn_client-v1.so
 vendor/lib64/secure_element-impl.so
 
 # Sensors
+vendor/etc/sensors/hals.conf
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
 
 # Soter
