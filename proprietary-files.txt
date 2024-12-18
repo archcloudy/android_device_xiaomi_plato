@@ -1,4 +1,4 @@
-# Unpinned blobs from plato-user 14 UP1A.230905.011 V816.0.12.0.ULQMIXM release-keys
+# Unpinned blobs from plato-user 14 UP1A.230905.011 V816.0.14.0.ULQMIXM release-keys
 
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
