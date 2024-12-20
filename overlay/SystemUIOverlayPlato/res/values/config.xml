@@ -9,6 +9,9 @@
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#00ffffff</color>
 
+    <!-- Default paddings for content around the corners. -->
+    <dimen name="rounded_corner_content_padding">40.0px</dimen>
+
     <!-- The end padding for the clock in the status bar. -->
     <dimen name="status_bar_clock_end_padding">6dp</dimen>
 
