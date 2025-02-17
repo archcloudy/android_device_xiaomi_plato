@@ -550,7 +550,6 @@ vendor/etc/sn100u_pnx_sst.pnscr
 
 # Sensors
 vendor/etc/sensors/hals.conf
-vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
 
 # Thermal
 vendor/bin/mi_thermald
