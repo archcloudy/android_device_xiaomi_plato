@@ -1,4 +1,4 @@
-SPDX-FileCopyrightText: 2023-2024 The LineageOS Project
+SPDX-FileCopyrightText: The LineageOS Project
 
 Device configuration for Xiaomi 12T
 =============================================================
