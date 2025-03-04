@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2024 The LineageOS Project
-
-    SPDX-License-Identifier: Apache-2.0
+     SPDX-FileCopyrightText: 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <bool name="enable_secure_nfc_support">true</bool>
