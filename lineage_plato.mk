@@ -15,13 +15,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 22071212AG
 
-PRODUCT_SYSTEM_NAME := plato_global
-PRODUCT_SYSTEM_DEVICE := plato
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="plato_global-user 14 UP1A.230905.011 V816.0.14.0.ULQMIXM release-keys" \
-    BuildFingerprint=Xiaomi/plato_global/plato:14/UP1A.230905.011/V816.0.14.0.ULQMIXM:user/release-keys
-    SystemModel=$(PRODUCT_SYSTEM_DEVICE) \
-    SystemName=$(PRODUCT_SYSTEM_NAME) \
-    ProductModel=$(PRODUCT_SYSTEM_DEVICE) \
-    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+    BuildFingerprint=Xiaomi/plato_global/plato:14/UP1A.230905.011/V816.0.14.0.ULQMIXM:user/release-keys \
+    DeviceProduct=plato \
+    SystemName=plato_global
