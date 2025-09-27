@@ -338,3 +338,5 @@ goodix_core.ko
 elliptic.ko
 haptic.ko
 mi_thermal_interface.ko
+kshrink_slabd.ko
+kshrink_lruvecd.ko
