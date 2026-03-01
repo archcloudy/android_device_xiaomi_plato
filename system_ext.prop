@@ -1,6 +1,9 @@
 # Camera
 ro.product.mod_device=plato_global
 
+# Display
+ro.surface_flinger.supports_background_blur=1
+
 # Fingerprint
 persist.vendor.sys.fp.udfps.location.X_Y=496,2330
 persist.vendor.sys.fp.udfps.size.width_height=228,228
