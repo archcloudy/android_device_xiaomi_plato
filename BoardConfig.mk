@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/xiaomi/plato
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := plato
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
