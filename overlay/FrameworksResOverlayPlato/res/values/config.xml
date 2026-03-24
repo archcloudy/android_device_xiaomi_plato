@@ -405,7 +405,7 @@
 
     <!-- Enable UDFPS when the screen is off -->
     <bool name="config_screen_off_udfps_enabled">true</bool>
-    <bool name="config_screen_off_udfps_default_on">true</bool>
+    <bool name="config_screen_off_udfps_default_on">false</bool>
 
     <!-- The default intensity level for alarm vibrations. See
          Settings.System.ALARM_VIBRATION_INTENSITY more details on the constant values and
