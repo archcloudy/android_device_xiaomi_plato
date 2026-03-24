@@ -28,6 +28,7 @@ vendor/etc/misound_res_spk.bin
 
 # Audio Hardware
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
+vendor/lib64/libmisight.so
 vendor/lib64/libmisound.so
 vendor/lib64/libmisoundcrossfade.so
 vendor/lib64/libaudio_param_parser-vnd.so
