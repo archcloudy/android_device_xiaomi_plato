@@ -18,21 +18,6 @@ on post-fs-data
     chmod 0660 /dev/p73
     chown nfc nfc /dev/p73
 
-    # Calibration
-    mkdir mnt/vendor/persist/
-    mkdir mnt/vendor/persist/camera
-    chown system cameraserver mnt/vendor/persist
-    chown system cameraserver mnt/vendor/persist/camera
-    chmod 777 mnt/vendor/persist/camera
-    chmod 777 mnt/vendor/persist
-    chmod 777 mnt/vendor/persist/camera/com.xiaomi.dcal.wu.bin
-    chmod 777 vendor/etc/camera/cal_w_uw_L16_golden_64m_i
-    chmod 777 vendor/etc/camera/cal_w_uw_L16_golden_64m_ii
-    chmod 777 vendor/etc/camera/cal_w_uw_L16_golden_108m
-    mkdir /data/vendor/camera
-    chown root system /data/vendor/camera
-    chmod 0777 /data/vendor/camera
-
 on boot
     # Display feature sysfs node
     chown system system /sys/class/mi_display/disp-DSI-0/disp_param
@@ -47,7 +32,6 @@ on boot
     chmod 0664 /sys/class/mi_display/disp-DSI-0/doze_brightness
     chown system system /sys/class/mi_display/disp-DSI-0/brightness_clone
     chmod 0664 /sys/class/mi_display/disp-DSI-0/brightness_clone
-	
-    # camera flash led
+	# camera flash led
 	chown system system /sys/class/flashlight_core/flashlight/torchbrightness
     chmod 0664 /sys/class/flashlight_core/flashlight/torchbrightness
