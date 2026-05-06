@@ -10,14 +10,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from plato device
 $(call inherit-product, device/xiaomi/plato/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+TARGET_SCREEN_WIDTH := 1220
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := plato
 PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_MODEL := 22071212AG
-PRODUCT_NAME := lineage_plato
+PRODUCT_NAME := custom_plato
 PRODUCT_SYSTEM_NAME := plato_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

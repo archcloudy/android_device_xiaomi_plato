@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_plato.mk
+    $(LOCAL_DIR)/custom_plato.mk
